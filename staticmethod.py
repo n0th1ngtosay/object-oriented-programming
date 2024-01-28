@@ -23,5 +23,5 @@ class Vector():
         return x*x+y*y
     
 
-v = Vector(10, 20)
+v = Vector(1, 200)
 print(Vector.norm2(5,6))
