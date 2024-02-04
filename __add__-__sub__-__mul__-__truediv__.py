@@ -10,7 +10,7 @@ class Clock:
         self.seconds = seconds % self.__DAY
 
     def get_time(self):
-        s = self. seconds % 60
+        s = self.seconds % 60
         m = (self.seconds // 60) % 60
         h = (self.seconds // 3600) % 24
         return f"{self.__get_formatted(h)}:{self.__get_formatted(m)}:{self.__get_formatted(s)}"
